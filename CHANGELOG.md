@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.0 (28/05/2019)
+- https://github.com/InflationX/Calligraphy/issues/30, Fixed matchesResourceIdName resulting in NotFoundException 
+on Android P when trying expand WebView PopUp list.
+
 ## 3.1.1 (16/04/2019)
 - Use custom reflection utils rather than depend on ViewPump internals
 - Added support for loading a font from an absolute path
