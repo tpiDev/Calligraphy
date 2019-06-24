@@ -112,7 +112,7 @@ class Calligraphy {
         try {
             return view.getResources().getResourceEntryName(view.getId());
         } catch (Resources.NotFoundException exception) {
-            Log.w(TAG, "An error occurred when trying to get resource entry name. \nStackTrace:" + exception);
+            Log.w(TAG, "An error occurred when trying to get resource entry name.", exception);
             return "";
         }
     }
